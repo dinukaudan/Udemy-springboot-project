@@ -8,10 +8,7 @@ public class BinarySEarchImpl {
 	@Autowired
 private SortAlgorithm sortAlgorithm;
 
-	public BinarySEarchImpl(SortAlgorithm sortAlgorithm) {
-	super();
-	this.sortAlgorithm = sortAlgorithm;
-}
+	
 
 	public int binarySearch(int [] numbers, int numberForSearch) {
 	int[] sortednumbers=sortAlgorithm.sort(numbers);
